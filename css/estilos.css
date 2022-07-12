@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+}
+
+/* TITULO */
+
+.titulo_header {
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+    text-shadow: 1px 2px 3px white;
+}
+
+.titulo_header {
+    height: 89px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo_header h2 {
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+/* HEADER */
+
+#contenedor_li {
+    position: fixed;
+    top: 0;
+    right: -110%;
+    background-color: rgb(152, 255, 152);
+    width: 30vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: right 1s ease-in-out;
+    box-shadow: 0 0 6px white;
+}
+
+.contenedor_header {
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://i.pinimg.com/originals/9f/66/0f/9f660f6d0d09d80f6cc039d275567deb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contenedor_boton {
+    text-align: right;
+}
+
+#boton {
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin: 20px;
+    text-shadow: 1px 2px 3px black;
+}
+ 
+#boton:hover {
+    color: rgb(192, 192, 192);
+}
+
+.nav {
+    z-index: 50;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.li {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    border-bottom: 10px solid transparent;
+}
+
+.li:first-child > a {
+    color: rgb(101, 182, 101);
+}
+
+.li a {
+    color: black;
+    text-decoration: none;
+}
+
+.li:hover {
+    border-bottom: 10px solid rgb(101, 182, 101); 
+}
+
+.li:hover > a{
+    color: rgb(101, 182, 101);
+}
+
+
+/* DIVS */
+
+.uno, .dos {
+    margin-top: 50px;
+}
+
+.contenedor_1, .contenedor_2 {
+    display: flex;
+    align-items: center;
+}
+
+/* SECCION 1 */
+
+.seccion_1{
+    background-image: url(https://s1.1zoom.me/b5050/335/Abstraction_578925_1366x768.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.contenedor_1 {
+    width: 50%;
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    max-height: 50vh;
+    border-bottom: 15px solid pink;
+}
+
+.titulo2 {
+    margin: 10px;
+    font-size: 30px;
+    color: pink;
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+/* SECCION 2 */
+
+.seccion_2{
+    background-image: url(https://wallpaperaccess.com/full/2825826.gif);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_2 {
+    width: 50%;
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    max-height: 50vh;
+    border-bottom: 15px solid rgb(0, 255, 242);
+}
+
+.titulo3 {
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(0, 255, 242);
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: deeppink;
+    padding: 30px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.icono {
+    font-size: 25px;
+    margin: 0px 0px 0px 20px;
+}
+
+
+.a_1, .a_2 {
+    color: #fff;
+}

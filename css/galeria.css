@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* TITULO */
+
+.contenedor_titulo {
+    position: relative;
+    padding-top: 80px;
+    height: 85px;
+    font-size: 40px;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_titulo h1 {
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+/* HEADER */
+#contenedor_li {
+    position: fixed;
+    top: 0;
+    right: -110%;
+    background-color: blanchedalmond;
+    width: 30vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: right 1s ease-in-out;
+    box-shadow: 0 0 6px white;
+}
+
+.contenedor_boton {
+    text-align: right;
+}
+
+#boton {
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin: 20px;
+    text-shadow: 1px 2px 3px black;
+}
+ 
+#boton:hover {
+    color: rgb(192, 192, 192);
+}
+
+.nav {
+    z-index: 50;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+.li {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    border-bottom: 10px solid transparent;
+}
+
+.li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.li:nth-child(2) > a {
+    color: rgb(255, 179, 65);
+}
+
+.li:hover {
+    border-bottom: 10px solid rgb(255, 179, 65); 
+}
+
+.li:hover > a{
+    color: rgb(255, 179, 65);
+}
+
+.a {
+    font-family: 'Inter', sans-serif;
+}
+
+/* GALERIA */
+.fondo_galeria {
+    background-image: url(https://paranoidandroid.co/assets/wallpapers/2018/submerged_desktop_thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contenedor_galeria {
+    background-color: #000;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 200px;
+    grid-gap: 40px;
+    margin: 80px;
+}
+
+
+.wallpaper {
+    border: solid black 1px; 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+}
+
+.wallpaper:hover {
+    border: 1px solid blanchedalmond;
+}
+
+.wallpaper:nth-child(7) {
+    grid-row: span 2;
+}
+
+.wallpaper:nth-child(5) {
+    grid-row: span 2;
+}
+
+.wallpaper:nth-child(4) {
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.wallpaper:nth-child(9) {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.wallpaper:nth-child(10) {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.wallpaper:nth-child(2) {
+    filter: grayscale() contrast(1);
+}
+
+.wallpaper:last-child {
+    grid-row: span 2;
+    filter: hue-rotate(100deg);
+}
+
+/* SECCION 1 */
+
+.seccion_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor_1 {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border: 10px solid #000;
+}
+
+.contenedor_titulo_2 {
+    text-align: center;
+    margin: 15px;
+}
+
+.contenedor_titulo_2 h2 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 35px;
+}
+
+.contenedor_sub_1 {
+    margin: 10px 0px 10px 0px;
+}
+
+.contenedor_sub_1 h3 {
+    font-family: 'UnifrakturMaguntia', cursive;   
+    font-size: 25px;
+}
+
+.final {
+    color: rgb(255, 179, 65);
+    margin: 15px 0px 5px 0px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #000;
+    padding: 30px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: blanchedalmond;
+    margin-top: 80px;
+}
+
+.icono {
+    font-size: 25px;
+    margin: 0px 0px 0px 20px;
+}
+
+
+.a_1, .a_2 {
+    color: blanchedalmond;
+}
